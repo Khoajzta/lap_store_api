@@ -1,4 +1,4 @@
 <?php
-// index.php
-require_once './config/database.php';
-require_once './api/router.php'; // hoặc file điều hướng route của bạn
+// Chuyển hướng về API chính
+header("Location: /lap_store_api/api/sanpham/read.php");
+exit();
